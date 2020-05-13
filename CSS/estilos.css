@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    background-image: url('https://img.freepik.com/free-vector/gradient-blue-abstract-background_1159-3091.jpg?size=338&ext=jpg');
+    background-size: 100vw 100vh;
+    backdrop-filter: blur(50px);
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .site-title,
+  .site-subtitle {
+    text-align: center;
+    color: #40ff9f;
+    font-family: Times;
+  }
+  
